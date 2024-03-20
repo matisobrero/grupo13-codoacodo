@@ -1,0 +1,228 @@
+html, body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  z-index: 999; 
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  transition: .5s;
+}
+
+nav ul li a:hover {
+ transform: translateY(-2px);
+}
+
+.menu1 {
+  background-color: grey;
+  height: 100%;
+  width: 100%;
+}
+
+.texto {
+  font-size: 40px;
+  text-align: center;
+  color: #212529;
+  padding-bottom: 5%;
+}
+
+h1 {
+  font-size: 45px;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.card {
+  background-color: #F2F4FF;
+  overflow: hidden;
+  transition: .5s;
+}
+
+.card:hover {
+  box-shadow: 0 5px;
+  transform: translateY(-15px);
+}
+
+.odontologos {
+  border-radius: 25px;
+}
+
+h6 {
+  font-size: 17px;
+  text-align: center;
+  color: #212529;
+  padding-bottom: 5%;
+  font-weight: 300;
+}
+
+footer {
+  font-size: 15px;
+  background-color: #121111;
+  text-align: center;
+  padding: 1px 0;
+  position: static;
+  width: 100%;
+  color: #fff;
+  margin-top: auto;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-link {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 24px;
+}
+
+.social-link:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+.ico-serv {
+  transition: .5s;
+}
+
+.ico-serv:hover {
+  transform: translateY(-5px);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.slider-title{
+  font-size: 33px;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.slider-subtitle{
+  font-size: 21px;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.contenedor-banner {
+  position: relative;
+}
+
+.contenedor-banner img {
+  width: 100%;
+  border-radius: 10px;
+  opacity: 0.7;
+}
+
+.contenedor-banner p {
+  font-size: 2rem;
+  color: white;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.i-contacto {
+  font-size: 30px;
+}
+
+.i-contacto li {
+  list-style: none;
+  display: inline-block;
+}
+
+.redes {
+  color: #121111;
+  overflow: hidden;
+  transition: .5s;
+}
+
+.redes:hover {
+  box-shadow: 0 0px;
+  transform: translateY(-5px);
+}
+
+.img-grupo {
+  border-radius: 10px;
+  opacity: 1;
+  width: 800px;
+}
+
+.img-grupo:hover {
+  opacity: 0.9;
+  transition: 1s;
+}
+
+.icono {
+  border-radius: 30px;
+  width: 150px;
+  opacity: 0.8;
+}
+
+.icono:hover {
+  opacity: 0.7;
+}
+
+.form-control {
+  background-color: #F2F4FF;
+}
+
+
+.btn {
+  color: white;
+  background-color: #4BD6F2;
+  border: none;
+}
+
+.logo {
+  transform: scale(var(--escala, 1));
+  transition: transform 0.5s;
+}
+
+.logo:hover {
+  --escala: 1.02;
+  cursor: pointer;
+}
+
+@media (max-width:576px) {
+  .contenedor-banner p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width:576px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+/* REFERENCIA  Paleta de colores: MAIN: #4864e6 SECUNDARIO: #F2F4FF ACENTO: #4BD6F2/
